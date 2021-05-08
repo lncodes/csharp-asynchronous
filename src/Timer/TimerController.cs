@@ -8,10 +8,13 @@ namespace Lncodes.Example.Async
     {
         private readonly int _delay;
         private readonly double _duration;
-
         private CancellationTokenSource _cencelTokenSource = new CancellationTokenSource();
 
-        //constructor
+        /// <summary>
+        /// Constructor
+        /// </summary>
+        /// <param name="delay"></param>
+        /// <param name="duration"></param>
         public TimerController(int delay, double duration) =>
             (_delay, _duration) = (delay, duration);
 
