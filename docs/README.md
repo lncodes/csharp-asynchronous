@@ -49,7 +49,7 @@ To set up this C# project on your local machine, ensure that the system requirem
       Use Git to create a local copy by executing the following command:
 
       ```bash
-      git clone {{REPOSITORY_URL}}.git
+      git clone https://github.com/lncodes/csharp-asynchronous.git
       ```
 
     - **Download as ZIP**
