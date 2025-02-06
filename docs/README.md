@@ -7,11 +7,11 @@
 
 <h1 align="center">C# Asynchronous</h1>
 <p align="center">
-  <a href="{{REPOSITORY_URL}}/actions/workflows/build-and-publish-dotnet.yml">
-      <img src="{{REPOSITORY_URL}}/actions/workflows/build-and-publish-dotnet.yml/badge.svg">
+  <a href="https://github.com/lncodes/csharp-asynchronous/actions/workflows/build-and-publish-dotnet.yml">
+      <img src="https://github.com/lncodes/csharp-asynchronous/actions/workflows/build-and-publish-dotnet.yml/badge.svg">
   </a>
-  <a href="https://sonarcloud.io/dashboard?id=lncodes_{{REPOSITORY_NAME}}">
-      <img src="https://sonarcloud.io/api/project_badges/measure?project=lncodes_{{REPOSITORY_NAME}}&metric=alert_status">
+  <a href="https://sonarcloud.io/dashboard?id=lncodes_csharp-asynchronous">
+      <img src="https://sonarcloud.io/api/project_badges/measure?project=lncodes_csharp-asynchronous&metric=alert_status">
   </a>
 </p>
 
@@ -28,7 +28,7 @@
 
 This repository demonstrates the use of C# Asynchronous through a simple console application. In this repository, asynchronous methods are used to load game assets (such as images and audio files) and provide the ability to cancel the asynchronous operation if needed.
 
-For more information about C# Asynchronous, check out the blog post: [C# Asynchronous - Last Night Codes](https://www.lncodes.com/{{REPOSITORY_NAME}}).
+For more information about C# Asynchronous, check out the blog post: [C# Asynchronous - Last Night Codes](https://www.lncodes.com/csharp-asynchronous).
 
 <h2 id="installation">📦 Installation</h2>
 
@@ -49,7 +49,7 @@ To set up this C# project on your local machine, ensure that the system requirem
       Use Git to create a local copy by executing the following command:
 
       ```bash
-      git clone {{REPOSITORY_URL}}.git
+      git clone https://github.com/lncodes/csharp-asynchronous.git
       ```
 
     - **Download as ZIP**
@@ -61,10 +61,10 @@ To set up this C# project on your local machine, ensure that the system requirem
     Navigate to the project directory containing the source files by executing the following command:
 
     ```bash
-    cd {{REPOSITORY_NAME}}/src
+    cd csharp-asynchronous/src
     ```
 
-    > **Note:** Make sure you're in the correct parent directory where the `{{REPOSITORY_NAME}}` folder is located.
+    > **Note:** Make sure you're in the correct parent directory where the `csharp-asynchronous` folder is located.
     
 3. **Restore Dependencies**
 
@@ -97,7 +97,7 @@ We appreciate your interest in contributing to this project! For detailed guidel
 
 <h2 id="discussion">💬 Discussion</h2>
 
-If you have any questions or want to discuss anything related to this project, visit our [Discussion Forum]({{REPOSITORY_URL}}/discussions). You can also leave comments on [C# Asynchronous - Last Night Codes](https://lncodes.com/{{REPOSITORY_NAME}}) blog post for more in-depth discussion on this project’s topics.
+If you have any questions or want to discuss anything related to this project, visit our [Discussion Forum](https://github.com/lncodes/csharp-asynchronous/discussions). You can also leave comments on [C# Asynchronous - Last Night Codes](https://lncodes.com/csharp-asynchronous) blog post for more in-depth discussion on this project’s topics.
 
 <h2 id="license"> 📋 License</h2>
 
