@@ -1,73 +1,104 @@
 <br>
 <p align="center">
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://lncodes.com">
-    <img src="https://lncodes.com/wp-content/uploads/2020/09/lncodes-logo-animated.gif" height="175"></img>
+    <img src="https://github.com/lncodes/docs/blob/main/assets/animations/lncodes-logo-animation.gif" height="175"></img>
   </a>
 </p>
 
 <h1 align="center">C# Asynchronous</h1>
 <p align="center">
-  <a href="https://github.com/lncodes/csharp-asynchronous/actions/workflows/build.yml">
-      <img src="https://github.com/lncodes/csharp-asynchronous/actions/workflows/build.yml/badge.svg">
-  </a> 
-  <a href="https://sonarcloud.io/dashboard?id=lncodes_csharp-asynchronous">
-      <img src="https://sonarcloud.io/api/project_badges/measure?project=lncodes_csharp-asynchronous&metric=alert_status">
+  <a href="{{REPOSITORY_URL}}/actions/workflows/build-and-publish-dotnet.yml">
+      <img src="{{REPOSITORY_URL}}/actions/workflows/build-and-publish-dotnet.yml/badge.svg">
+  </a>
+  <a href="https://sonarcloud.io/dashboard?id=lncodes_{{REPOSITORY_NAME}}">
+      <img src="https://sonarcloud.io/api/project_badges/measure?project=lncodes_{{REPOSITORY_NAME}}&metric=alert_status">
   </a>
 </p>
 
 <p align="center">
   <a href="#introduction">Introduction</a> •
-  <a href="#setup">Setup</a> •
+  <a href="#installation">Installation</a> •
+  <a href="#usage">Usage</a> •
   <a href="#contribute">Contribute</a> •
-  <a href="#discuss">Discuss</a> •
-  <a href="#support">Support</a> •
+  <a href="#discussion">Discussion</a> •
   <a href="#license">License</a>
 </p>
 
----
+<h2 id="introduction">🌟 Introduction</h2>
 
-<h2 id="introduction">✨ Introduction</h2>
+This repository demonstrates the use of C# Asynchronous through a simple console application. In this repository, asynchronous methods are used to load game assets (such as images and audio files) and provide the ability to cancel the asynchronous operation if needed.
 
-This project is part of the tutorial content, and this project will show you an example implementation of **C# Asynchronous**. To see the tutorial content, you can refer to the [Tutorial Content](https://lncodes.com/tutorial/csharp/asynchronous/). 
+For more information about C# Asynchronous, check out the blog post: [C# Asynchronous - Last Night Codes](https://www.lncodes.com/{{REPOSITORY_NAME}}).
 
-<h3 id="objective">🎯 Objective</h3>
+<h2 id="installation">📦 Installation</h2>
 
-Here some objective we want to achieve from this project :
-1. Create a simple example of **C# Asynchronous** implementation that can be understood by new programmers who want to learn C# Asynchronous.
-2. Create example implementation of **C# Asynchronous** that are relevant over time.
+To set up this C# project on your local machine, ensure that the system requirements are met, and then follow these instructions:
 
-<h2 id="setup">🧰 Setup </h2>
+<h3>System Requirements</h3>
 
-> For this setup, I use Visual Studio as the IDE.
-### ⚙️ Installation 
-Follow these steps to install the **C# Asynchronous** project
-1. Clone or download this project.
-``` bash 
-git clone https://github.com/lncodes/csharp-asynchronous.git
-```
-2. Open the project solution in the src folder.
+- **.NET SDK:** Version 8 or later ([Download .NET](https://dotnet.microsoft.com/en-us/download)).
 
-<img src="media/open-project.gif" height="240"/>
+- **Operating System:** Windows, macOS, or Linux.
 
-### 💻 Usage
-To use this project, you need to press the Run Button in your Visual Studio.
+<h3>Steps to Install</h3>
 
-<img src="media/run-project.gif" height="240"/>
+1. **Clone or Download the Project**
 
-<h2 id="contribute">💖 Contribute</h2>
+    - **Clone the Repository**
+    
+      Use Git to create a local copy by executing the following command:
 
-Want to contribute to this project? Please read our project [Contribution Guidelines](CONTRIBUTING.md).
+      ```bash
+      git clone {{REPOSITORY_URL}}.git
+      ```
 
-<h2 id="discuss">💬 Discuss</h2>
+    - **Download as ZIP**
 
-If you have any questions about this project, you can go to [Discussion Forum](https://github.com/lncodes/csharp-asynchronous/discussions) or directly comment on the [Tutorial Content](https://lncodes.com/tutorial/csharp/asynchronous/).
+      If Git is not available, you can download the project as a ZIP file from the GitHub repository by clicking the “Code” button and selecting the “Download ZIP" option.
 
-<h2 id="support">💌 Support</h2>
+2. **Navigate to the Project Directory**
 
-Please support us to make other helpful content.
+    Navigate to the project directory containing the source files by executing the following command:
 
-<a href="https://www.buymeacoffee.com/lncodes" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" height="64"></a>
+    ```bash
+    cd {{REPOSITORY_NAME}}/src
+    ```
+
+    > **Note:** Make sure you're in the correct parent directory where the `{{REPOSITORY_NAME}}` folder is located.
+    
+3. **Restore Dependencies**
+
+    Install all required packages and libraries by executing the following command:
+
+    ```bash
+    dotnet restore
+    ```
+
+    This command uses NuGet to download and install the dependencies specified in the project’s configuration files.
+
+<h2 id="usage">🧑‍💻 Usage</h2>
+
+To run the console application, there's serval options can be use:
+
+1. **From Visual Studio**
+    - Press Ctrl + F5 to run without debugging.
+
+    - Press F5 or click the green start button to run with debugging.
+    
+2. **From .NET CLI**
+
+    ```bash
+     dotnet run
+     ```
+
+<h2 id="contribute">🤝 Contribute</h2>
+
+We appreciate your interest in contributing to this project! For detailed guidelines on how to report issues and submit pull requests, please check out our [Contributing Guidelines](CONTRIBUTING.md).
+
+<h2 id="discussion">💬 Discussion</h2>
+
+If you have any questions or want to discuss anything related to this project, visit our [Discussion Forum]({{REPOSITORY_URL}}/discussions). You can also leave comments on [C# Asynchronous - Last Night Codes](https://lncodes.com/{{REPOSITORY_NAME}}) blog post for more in-depth discussion on this project’s topics.
 
 <h2 id="license"> 📋 License</h2>
 
-This project is open-sourced software licensed under [MIT](https://github.com/lncodes/csharp-asynchronous/blob/master/LICENSE) license.
+This project is licensed under the [MIT License](../LICENSE).<br>
